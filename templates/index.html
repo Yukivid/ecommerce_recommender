@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>✨ AI E-commerce Product Recommender</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      min-height: 100vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding-bottom: 60px;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-top: 40px;
+      text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h1::before {
+      content: "🛍️";
+      font-size: 2rem;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 30px;
+      background: rgba(255, 255, 255, 0.12);
+      padding: 12px 20px;
+      border-radius: 50px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(8px);
+      transition: 0.3s;
+    }
+
+    form:hover {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+    }
+
+    input {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 30px;
+      width: 260px;
+      outline: none;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    button {
+      padding: 10px 22px;
+      border: none;
+      border-radius: 30px;
+      background: linear-gradient(90deg, #ff8a00, #e52e71);
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+    }
+
+    .results {
+      width: 90%;
+      max-width: 600px;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      align-items: center;
+      animation: fadeIn 0.7s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 16px;
+      padding: 20px;
+      width: 100%;
+      max-width: 550px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+      transition: transform 0.3s, box-shadow 0.3s;
+      backdrop-filter: blur(10px);
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    }
+
+    .product-img {
+      width: 80%;
+      max-width: 300px;
+      border-radius: 10px;
+      margin: 10px auto;
+      display: block;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+
+    .name {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-bottom: 5px;
+      color: #fff;
+    }
+
+    .category {
+      font-style: italic;
+      color: #ddd;
+      margin-top: 4px;
+    }
+
+    .price {
+      font-size: 1.1rem;
+      color: #ffda79;
+      margin-top: 5px;
+    }
+
+    .explanation {
+      background: rgba(255, 255, 255, 0.18);
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 20px;
+      line-height: 1.6;
+      font-size: 1rem;
+      color: #f5f5f5;
+      box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
+      text-align: justify;
+    }
+
+    .spinner {
+      border: 6px solid rgba(255, 255, 255, 0.3);
+      border-top: 6px solid #fff;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      margin: 40px auto;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 1.7rem; }
+      input { width: 180px; font-size: 0.9rem; }
+      button { padding: 8px 14px; font-size: 0.9rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>AI E-commerce Product Recommender</h1>
+
+  <form id="recommendForm">
+    <input type="text" id="query" placeholder="Search for a product..." required />
+    <button type="submit">Get Recommendations</button>
+  </form>
+
+  <div class="results" id="results"></div>
+
+  <script>
+    const form = document.getElementById("recommendForm");
+    const resultsDiv = document.getElementById("results");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const query = document.getElementById("query").value.trim();
+
+      resultsDiv.innerHTML = `
+        <div class="spinner"></div>
+        <p style="text-align:center; margin-top:10px;">Fetching recommendations...</p>
+      `;
+
+      const response = await fetch(`/recommendations?query=${encodeURIComponent(query)}`);
+      const data = await response.json();
+
+      resultsDiv.innerHTML = "";
+      if (data.results && data.results.length > 0) {
+        // only show the first (best) product
+        const r = data.results[0];
+        const card = document.createElement("div");
+        card.className = "card";
+        card.innerHTML = `
+          <img src="/static/images/${r.name.replace(/\s+/g, '_').toLowerCase()}.jpg" 
+               alt="${r.name}" class="product-img" 
+               onerror="this.src='/static/images/default.jpg'"/>
+          <div class="name">${r.name}</div>
+          <div class="category">Category: ${r.category}</div>
+          <div class="price">💰 Price: ₹${r.price}</div>
+          <div class="explanation">🧠 ${r.explanation}</div>
+        `;
+        resultsDiv.appendChild(card);
+      } else {
+        resultsDiv.innerHTML = "<p>No products found.</p>";
+      }
+    });
+  </script>
+</body>
+</html>
