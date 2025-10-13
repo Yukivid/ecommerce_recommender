@@ -5,6 +5,19 @@ It analyzes user queries and recommends relevant products along with human-like 
 
 ---
 
+## 🎥 Demo Video
+
+🎬 **Watch the full demo here:**  
+👉 [Click to Watch on Google Drive](https://drive.google.com/file/d/1N-N-iivWSEEthxyNUYz6_RwtRK-_YRCu/view?usp=sharing)
+
+Or view the embedded demo below 👇
+
+https://github.com/Yukivid/ecommerce_recommender/assets/demo_video.mp4
+
+
+---
+
+
 ## 🌟 Features
 
 - 🤖 **AI-Generated Explanations**  
