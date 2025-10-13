@@ -40,19 +40,6 @@ It analyzes user queries and recommends relevant products along with human-like 
 
 ---
 
-## 🖼️ Screenshots
-
-### 🧩 Search Interface
-![Search UI](./static/images/ui_search_demo.png)
-
-### 📦 Product Recommendations
-![Recommendations](./static/images/ui_recommendations_demo.png)
-
-### 🤖 AI Explanations
-![AI Explanation](./static/images/ui_explanation_demo.png)
-
----
-
 ## 📁 Project Structure
 
 | File / Folder | Description |
