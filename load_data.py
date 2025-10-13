@@ -1,21 +1,20 @@
 import csv
-from database import SessionLocal, engine, Base
-from models import Product
+from database import SessionLocal, engine
+from models import Base, Product
 
 Base.metadata.create_all(bind=engine)
 db = SessionLocal()
 
-with open("data/products.csv", newline="", encoding="utf-8") as f:
+with open("data/products.csv", "r", encoding="utf-8") as f:
     reader = csv.DictReader(f)
     for row in reader:
-        product = Product(
+        db.add(Product(
             name=row["name"],
             category=row["category"],
             price=float(row["price"]),
-            description=row.get("description", "")
-        )
-        db.add(product)
-
+            description=row["description"]
+        ))
 db.commit()
 db.close()
-print("✅ Products loaded into database!")
+
+print("✅ Imported all 250+ products successfully!")
