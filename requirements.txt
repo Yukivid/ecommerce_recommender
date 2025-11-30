@@ -1,7 +1,9 @@
 fastapi
-uvicorn
+uvicorn[standard]
 sqlalchemy
-jinja2
 sentence-transformers
 torch
+jinja2
+python-multipart
+aiofiles
 google-generativeai
