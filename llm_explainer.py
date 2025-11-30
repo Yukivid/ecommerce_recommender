@@ -1,25 +1,41 @@
 import os
 import google.generativeai as genai
+from database import SessionLocal
+from models import Explanation
+from datetime import datetime
 
-# Configure Gemini
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-def explain_recommendation(product_name: str, user_query: str):
-    """
-    Generate a short explanation using Gemini 2.5 Flash.
-    """
+def explain(product, query, db):
+    # Check cache
+    cached = (
+        db.query(Explanation)
+        .filter_by(product_id=product.id, query=query)
+        .order_by(Explanation.created_at.desc())
+        .first()
+    )
+    if cached:
+        return cached.explanation
+
     prompt = f"""
-    The user searched for "{user_query}".
-    In 1–2 short, natural sentences, explain why "{product_name}" is a great recommendation.
-    Be helpful, friendly, and specific.
+    Explain in simple words why the product '{product.name}' is recommended 
+    for the search query '{query}'.
+    Product description: {product.description}
+    Category: {product.category}
     """
 
     try:
-        model = genai.GenerativeModel("models/gemini-2.5-flash")
-        response = model.generate_content(prompt)
-        if response and hasattr(response, "text"):
-            return response.text.strip()
-        else:
-            return "No explanation generated."
-    except Exception as e:
-        return f"(Explanation unavailable: {e})"
+        response = genai.GenerativeModel("gemini-pro").generate_content(prompt)
+        explanation_text = response.text
+    except Exception:
+        explanation_text = "This product matches your search based on category and description."
+
+    record = Explanation(
+        product_id=product.id,
+        query=query,
+        explanation=explanation_text
+    )
+    db.add(record)
+    db.commit()
+
+    return explanation_text
