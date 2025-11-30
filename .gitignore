@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Database
+ecommerce.db
+
+# API keys
+.env
+
+# Models
+*.pkl
+*.bin
+*.pt
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+venv/
+ecommerce.db
+static/images/
+*.pt
+*.bin
+*.pkl
