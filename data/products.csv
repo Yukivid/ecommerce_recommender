@@ -1,118 +1,119 @@
-name,category,price,description
-Apple iPhone 15,Mobile,79999,The latest iPhone with A16 Bionic chip, Dynamic Island, and an advanced 48MP camera system.
-Samsung Galaxy S24,Mobile,74999,High-end Android smartphone with AI-enhanced camera, 120Hz AMOLED display, and long-lasting battery.
-Google Pixel 8 Pro,Mobile,85999,Flagship Android with Google Tensor G3 chip, advanced AI features, and stunning photo performance.
-OnePlus 12R,Mobile,45999,Performance-focused phone with Snapdragon 8 Gen 2, fast 120W charging, and premium AMOLED display.
-Realme GT 5,Mobile,37999,Powerful mid-range phone offering high refresh rate display and gaming optimization.
-Xiaomi 14 Pro,Mobile,68999,Premium Android flagship with Leica-powered camera and 120W HyperCharge technology.
-iQOO Neo 9 Pro,Mobile,36999,Performance beast for gamers featuring Snapdragon 8 Gen 2 and 144Hz display.
-Nothing Phone 2,Mobile,44999,Unique transparent design smartphone with Glyph Interface and Snapdragon 8+ Gen 1.
-Asus ROG Phone 8,Mobile,94999,Gaming-centric phone with AMOLED display and monster performance for gamers.
-Oppo Find X6 Pro,Mobile,72999,Premium design smartphone with advanced camera and bright 2K display.
-Vivo X100 Pro,Mobile,88999,Flagship phone with Zeiss-tuned triple camera and powerful Dimensity processor.
-Motorola Edge 40,Mobile,29999,Stylish lightweight smartphone with curved OLED display and 68W fast charging.
-Infinix Zero Ultra,Mobile,25999,Affordable flagship with 200MP camera and 180W super fast charging.
-Poco F6,Mobile,28999,Performance-oriented midrange with Snapdragon 8s Gen 3 and AMOLED display.
-Redmi Note 13 Pro+,Mobile,23999,Feature-packed 200MP camera phone with curved display.
-Tecno Phantom X2,Mobile,24999,Stylish smartphone with retractable portrait lens and Dimensity 9000 processor.
+sku,name,category,price,description,image_url
 
-HP Pavilion Laptop,Laptop,59999,Stylish and powerful laptop for students and professionals, powered by Intel i5 and 16GB RAM.
-Dell XPS 13,Laptop,114999,Ultra-thin premium laptop with a near-borderless InfinityEdge display and long battery life.
-MacBook Air M2,Laptop,124999,Apple’s lightweight laptop powered by M2 chip, delivering excellent performance and battery efficiency.
-ASUS ROG Zephyrus G14,Laptop,139999,High-performance gaming laptop with Ryzen 9 processor and NVIDIA RTX 4060 GPU.
-Lenovo IdeaPad Slim 5,Laptop,64999,Portable laptop with Ryzen 7 CPU, great for productivity and media consumption.
-Acer Aspire 7,Laptop,49999,Value-for-money laptop with GTX 1650 GPU and solid build quality.
-MSI Stealth 15,Laptop,124999,Sleek gaming laptop with RTX 4060 and 240Hz display.
-Asus Vivobook S15,Laptop,79999,Thin and stylish laptop ideal for students and creatives.
-Dell Inspiron 14,Laptop,58999,Lightweight everyday laptop with Intel 13th Gen CPU and long battery life.
-HP Victus 16,Laptop,87999,Gaming-focused laptop with RTX 3050 GPU and high refresh rate.
-Lenovo Legion 5,Laptop,112999,Powerful gaming laptop with Ryzen 7 and RTX 4060 graphics.
-Razer Blade 15,Laptop,179999,Premium gaming laptop with QHD 240Hz display and RTX 4070 GPU.
-Apple MacBook Pro M3,Laptop,179999,High-performance MacBook with new M3 chip for creators and developers.
-Samsung Galaxy Book4,Laptop,69999,Thin and lightweight laptop with AMOLED display and Intel i7 CPU.
-Asus TUF F15,Laptop,79999,Gaming laptop with rugged design and NVIDIA graphics.
+IP15,Apple iPhone 15,Mobile,79999,"The latest iPhone with A16 Bionic chip, Dynamic Island, and an advanced 48MP camera system.",apple_iphone_15.jpg
+SGS24,Samsung Galaxy S24,Mobile,74999,"High-end Android smartphone with AI-enhanced camera, 120Hz AMOLED display, and long-lasting battery.",samsung_galaxy_s24.jpg
+PIX8P,Google Pixel 8 Pro,Mobile,85999,"Flagship Android with Google Tensor G3 chip, advanced AI features, and stunning photo performance.",google_pixel_8_pro.jpg
+OP12R,OnePlus 12R,Mobile,45999,"Performance-focused phone with Snapdragon 8 Gen 2, fast 120W charging, and premium AMOLED display.",oneplus_12r.jpg
+RGT5,Realme GT 5,Mobile,37999,"Powerful mid-range phone offering high refresh rate display and gaming optimization.",realme_gt_5.jpg
+XM14P,Xiaomi 14 Pro,Mobile,68999,"Premium Android flagship with Leica-powered camera and 120W HyperCharge technology.",xiaomi_14_pro.jpg
+IQN9P,iQOO Neo 9 Pro,Mobile,36999,"Performance beast for gamers featuring Snapdragon 8 Gen 2 and 144Hz display.",iqoo_neo_9_pro.jpg
+NP2,Nothing Phone 2,Mobile,44999,"Unique transparent design smartphone with Glyph Interface and Snapdragon 8+ Gen 1.",nothing_phone_2.jpg
+ROG8,Asus ROG Phone 8,Mobile,94999,"Gaming-centric phone with AMOLED display and monster performance for gamers.",asus_rog_phone_8.jpg
+OPFX6,Oppo Find X6 Pro,Mobile,72999,"Premium design smartphone with advanced camera and bright 2K display.",oppo_find_x6_pro.jpg
+VIX100,Vivo X100 Pro,Mobile,88999,"Flagship phone with Zeiss-tuned triple camera and powerful Dimensity processor.",vivo_x100_pro.jpg
+MOT40,Motorola Edge 40,Mobile,29999,"Stylish lightweight smartphone with curved OLED display and 68W fast charging.",motorola_edge_40.jpg
+INFZU,Infinix Zero Ultra,Mobile,25999,"Affordable flagship with 200MP camera and 180W super fast charging.",infinix_zero_ultra.jpg
+POF6,Poco F6,Mobile,28999,"Performance-oriented midrange with Snapdragon 8s Gen 3 and AMOLED display.",poco_f6.jpg
+RN13P,Redmi Note 13 Pro+,Mobile,23999,"Feature-packed 200MP camera phone with curved display.",redmi_note_13_pro_plus.jpg
+TPX2,Tecno Phantom X2,Mobile,24999,"Stylish smartphone with retractable portrait lens and Dimensity 9000 processor.",tecno_phantom_x2.jpg
 
-Sony WH-1000XM5,Headphones,29999,Industry-leading noise-cancelling headphones with crystal-clear sound and 30-hour battery life.
-Apple AirPods Pro 2,Headphones,24999,Wireless earbuds with active noise cancellation, spatial audio, and seamless Apple ecosystem integration.
-Boat Rockerz 550,Headphones,1999,Affordable wireless headphones with deep bass and long battery life.
-JBL Tune 760NC,Headphones,6999,Comfortable headphones with strong bass and active noise cancellation.
-Bose QC45,Headphones,32999,Premium over-ear headphones with noise cancellation and superior comfort.
-OnePlus Buds 3,Headphones,4999,Wireless earbuds with balanced sound and ANC.
-Samsung Galaxy Buds FE,Headphones,7999,Compact earbuds with clear vocals and deep bass.
-Skullcandy Crusher Evo,Headphones,10999,Headphones with adjustable bass and 40-hour battery life.
-Realme Buds Air 5,Headphones,3999,Affordable ANC earbuds with good sound balance.
-Noise Two,Headphones,2499,Budget-friendly wireless headphones with good bass performance.
-Sennheiser Momentum 4,Headphones,29999,Premium headphones with studio-level sound and ANC.
+HPPAV,HP Pavilion Laptop,Laptop,59999,"Stylish and powerful laptop for students and professionals, powered by Intel i5 and 16GB RAM.",hp_pavilion_laptop.jpg
+DXPS13,Dell XPS 13,Laptop,114999,"Ultra-thin premium laptop with a near-borderless InfinityEdge display and long battery life.",dell_xps_13.jpg
+MBA2,MacBook Air M2,Laptop,124999,"Apple’s lightweight laptop powered by M2 chip, delivering excellent performance and battery efficiency.",macbook_air_m2.jpg
+ROGZ14,ASUS ROG Zephyrus G14,Laptop,139999,"High-performance gaming laptop with Ryzen 9 processor and NVIDIA RTX 4060 GPU.",asus_rog_zephyrus_g14.jpg
+LIS5,Lenovo IdeaPad Slim 5,Laptop,64999,"Portable laptop with Ryzen 7 CPU, great for productivity and media consumption.",lenovo_ideapad_slim_5.jpg
+AAC7,Acer Aspire 7,Laptop,49999,"Value-for-money laptop with GTX 1650 GPU and solid build quality.",acer_aspire_7.jpg
+MSST15,MSI Stealth 15,Laptop,124999,"Sleek gaming laptop with RTX 4060 and 240Hz display.",msi_stealth_15.jpg
+AVB15,Asus Vivobook S15,Laptop,79999,"Thin and stylish laptop ideal for students and creatives.",asus_vivobook_s15.jpg
+DIN14,Dell Inspiron 14,Laptop,58999,"Lightweight everyday laptop with Intel 13th Gen CPU and long battery life.",dell_inspiron_14.jpg
+HPV16,HP Victus 16,Laptop,87999,"Gaming-focused laptop with RTX 3050 GPU and high refresh rate.",hp_victus_16.jpg
+LEG5,Lenovo Legion 5,Laptop,112999,"Powerful gaming laptop with Ryzen 7 and RTX 4060 graphics.",lenovo_legion_5.jpg
+RB15,Razer Blade 15,Laptop,179999,"Premium gaming laptop with QHD 240Hz display and RTX 4070 GPU.",razer_blade_15.jpg
+MBPM3,Apple MacBook Pro M3,Laptop,179999,"High-performance MacBook with new M3 chip for creators and developers.",macbook_pro_m3.jpg
+SGB4,Samsung Galaxy Book4,Laptop,69999,"Thin and lightweight laptop with AMOLED display and Intel i7 CPU.",samsung_galaxy_book4.jpg
+ATF15,Asus TUF F15,Laptop,79999,"Gaming laptop with rugged design and NVIDIA graphics.",asus_tuf_f15.jpg
 
-Apple Watch Series 9,Smartwatch,41999,Feature-packed smartwatch with fitness tracking, heart rate monitor, and seamless iPhone integration.
-Samsung Galaxy Watch 6,Smartwatch,37999,Stylish smartwatch with AMOLED display, ECG, and advanced health tracking.
-Amazfit GTR 4,Smartwatch,17999,Premium smartwatch with GPS, heart rate tracking, and long battery life.
-Noise ColorFit Ultra 3,Smartwatch,4999,Affordable smartwatch with AMOLED screen and multiple sports modes.
-Boat Ultima Prism,Smartwatch,3499,Colorful smartwatch with Bluetooth calling and AMOLED display.
-Fire-Boltt Phoenix Pro,Smartwatch,2999,Smartwatch with 1.39-inch round display and multiple sports tracking.
-Fitbit Versa 4,Smartwatch,17999,Fitness-focused smartwatch with accurate health metrics and long-lasting battery.
-Garmin Venu 3,Smartwatch,46999,Premium smartwatch with advanced GPS and workout analytics.
-Fossil Gen 6,Smartwatch,24999,Stylish smartwatch running Wear OS with heart rate monitoring.
-Honor Watch GS 3,Smartwatch,13999,Premium design smartwatch with AMOLED screen and health tracking.
+WHXM5,Sony WH-1000XM5,Headphones,29999,"Industry-leading noise-cancelling headphones with crystal-clear sound and 30-hour battery life.",sony_wh_1000xm5.jpg
+APPR2,Apple AirPods Pro 2,Headphones,24999,"Wireless earbuds with active noise cancellation, spatial audio, and seamless Apple ecosystem integration.",apple_airpods_pro_2.jpg
+BR550,Boat Rockerz 550,Headphones,1999,"Affordable wireless headphones with deep bass and long battery life.",boat_rockerz_550.jpg
+JBL760,JBL Tune 760NC,Headphones,6999,"Comfortable headphones with strong bass and active noise cancellation.",jbl_tune_760nc.jpg
+BQ45,Bose QC45,Headphones,32999,"Premium over-ear headphones with noise cancellation and superior comfort.",bose_qc45.jpg
+OPB3,OnePlus Buds 3,Headphones,4999,"Wireless earbuds with balanced sound and ANC.",oneplus_buds_3.jpg
+SGBFE,Samsung Galaxy Buds FE,Headphones,7999,"Compact earbuds with clear vocals and deep bass.",samsung_galaxy_buds_fe.jpg
+SCCEVO,Skullcandy Crusher Evo,Headphones,10999,"Headphones with adjustable bass and 40-hour battery life.",skullcandy_crusher_evo.jpg
+RBA5,Realme Buds Air 5,Headphones,3999,"Affordable ANC earbuds with good sound balance.",realme_buds_air_5.jpg
+N2H,Noise Two,Headphones,2499,"Budget-friendly wireless headphones with good bass performance.",noise_two.jpg
+SM4,Sennheiser Momentum 4,Headphones,29999,"Premium headphones with studio-level sound and ANC.",sennheiser_momentum_4.jpg
 
-Canon EOS R8,Camera,149999,Full-frame mirrorless camera with powerful autofocus and 4K video recording.
-Sony Alpha ZV-E10,Camera,81999,Compact mirrorless camera ideal for vloggers and creators with great autofocus.
-Nikon Z50,Camera,89999,Mid-range mirrorless camera offering great photo quality and video performance.
-GoPro HERO12,Camera,54999,Action camera built for adventure with 5.3K video recording and HyperSmooth stabilization.
-DJI Osmo Pocket 3,Camera,74999,Compact handheld camera with 3-axis stabilization and 4K HDR video.
-Canon PowerShot G7X,Camera,48999,Compact vlogging camera with bright lens and flip-up screen.
-Sony RX100 VII,Camera,94999,Premium compact camera with 1-inch sensor and Zeiss optics.
-Fujifilm X-S20,Camera,102999,Mirrorless camera with vintage design and advanced video capabilities.
-Panasonic Lumix G9 II,Camera,118999,Professional mirrorless camera for hybrid photography.
-Insta360 X3,Camera,46999,360-degree action camera with 5.7K resolution and waterproof design.
+AWS9,Apple Watch Series 9,Smartwatch,41999,"Feature-packed smartwatch with fitness tracking, heart rate monitor, and seamless iPhone integration.",apple_watch_series_9.jpg
+SGW6,Samsung Galaxy Watch 6,Smartwatch,37999,"Stylish smartwatch with AMOLED display, ECG, and advanced health tracking.",samsung_galaxy_watch_6.jpg
+AGTR4,Amazfit GTR 4,Smartwatch,17999,"Premium smartwatch with GPS, heart rate tracking, and long battery life.",amazfit_gtr_4.jpg
+NCU3,Noise ColorFit Ultra 3,Smartwatch,4999,"Affordable smartwatch with AMOLED screen and multiple sports modes.",noise_colorfit_ultra_3.jpg
+BUPR,Boat Ultima Prism,Smartwatch,3499,"Colorful smartwatch with Bluetooth calling and AMOLED display.",boat_ultima_prism.jpg
+FBPX,Fire-Boltt Phoenix Pro,Smartwatch,2999,"Smartwatch with 1.39-inch round display and multiple sports tracking.",fire_boltt_phoenix_pro.jpg
+FV4,Fitbit Versa 4,Smartwatch,17999,"Fitness-focused smartwatch with accurate health metrics and long-lasting battery.",fitbit_versa_4.jpg
+GV3,Garmin Venu 3,Smartwatch,46999,"Premium smartwatch with advanced GPS and workout analytics.",garmin_venu_3.jpg
+FGEN6,Fossil Gen 6,Smartwatch,24999,"Stylish smartwatch running Wear OS with heart rate monitoring.",fossil_gen_6.jpg
+HWGS3,Honor Watch GS 3,Smartwatch,13999,"Premium design smartwatch with AMOLED screen and health tracking.",honor_watch_gs_3.jpg
 
-LG OLED C3,Television,124999,Stunning OLED TV with Dolby Vision, HDR10, and AI Picture Pro.
-Samsung QN90C Neo QLED,Television,139999,Flagship QLED TV with Mini-LED backlight and 120Hz refresh rate.
-Sony Bravia XR A80L,Television,159999,Premium OLED TV with XR Cognitive Processor for lifelike visuals.
-TCL QLED C755,Television,69999,Affordable QLED TV with Dolby Vision and Google TV support.
-Mi QLED TV 5 Pro,Television,49999,Smart QLED TV with vivid color and Android 13.
-OnePlus Q2 Pro,Television,89999,Premium QLED TV with Dynaudio sound tuning and sleek design.
-Hisense U8K,Television,99999,Mini-LED TV with great HDR performance and Dolby Atmos audio.
-Vu Masterpiece Glo,Television,64999,4K QLED TV with 800 nits brightness and premium metal design.
-Acer H Series OLED,Television,79999,Affordable OLED TV with deep blacks and great contrast.
+CER8,Canon EOS R8,Camera,149999,"Full-frame mirrorless camera with powerful autofocus and 4K video recording.",canon_eos_r8.jpg
+SAZVE10,Sony Alpha ZV-E10,Camera,81999,"Compact mirrorless camera ideal for vloggers and creators with great autofocus.",sony_alpha_zv_e10.jpg
+NKZ50,Nikon Z50,Camera,89999,"Mid-range mirrorless camera offering great photo quality and video performance.",nikon_z50.jpg
+GP12,GoPro HERO12,Camera,54999,"Action camera built for adventure with 5.3K video recording and HyperSmooth stabilization.",gopro_hero12.jpg
+DJOP3,DJI Osmo Pocket 3,Camera,74999,"Compact handheld camera with 3-axis stabilization and 4K HDR video.",dji_osmo_pocket_3.jpg
+CPG7X,Canon PowerShot G7X,Camera,48999,"Compact vlogging camera with bright lens and flip-up screen.",canon_powershot_g7x.jpg
+SRX100,Sony RX100 VII,Camera,94999,"Premium compact camera with 1-inch sensor and Zeiss optics.",sony_rx100_vii.jpg
+FXS20,Fujifilm X-S20,Camera,102999,"Mirrorless camera with vintage design and advanced video capabilities.",fujifilm_x_s20.jpg
+LMG9,Panasonic Lumix G9 II,Camera,118999,"Professional mirrorless camera for hybrid photography.",panasonic_lumix_g9_ii.jpg
+ISX3,Insta360 X3,Camera,46999,"360-degree action camera with 5.7K resolution and waterproof design.",insta360_x3.jpg
 
-Amazon Echo Dot 5,Smart Speaker,5499,Smart speaker with Alexa voice control and rich sound.
-Google Nest Audio,Smart Speaker,7999,Smart home speaker with Google Assistant and improved bass.
-Apple HomePod Mini,Smart Speaker,9900,Compact smart speaker with Siri and 360° sound.
-Sonos One,Smart Speaker,19999,Premium speaker with Wi-Fi streaming and Alexa integration.
-Boat Stone 1450,Speaker,3999,Portable Bluetooth speaker with deep bass and water resistance.
-JBL Flip 6,Speaker,8999,Compact speaker with JBL Pro Sound and IP67 waterproofing.
-Sony SRS-XE300,Speaker,14999,Portable speaker with powerful stereo output and long battery life.
-Marshall Emberton II,Speaker,17999,Classic retro design speaker with 30-hour battery life.
-Zebronics Sound Bomb,Speaker,2499,Budget Bluetooth speaker with RGB lights and loud output.
+LGOLED3,LG OLED C3,Television,124999,"Stunning OLED TV with Dolby Vision, HDR10, and AI Picture Pro.",lg_oled_c3.jpg
+SNEO90C,Samsung QN90C Neo QLED,Television,139999,"Flagship QLED TV with Mini-LED backlight and 120Hz refresh rate.",samsung_qn90c_neo_qled.jpg
+SBRA80,Sony Bravia XR A80L,Television,159999,"Premium OLED TV with XR Cognitive Processor for lifelike visuals.",sony_bravia_xr_a80l.jpg
+TQC755,TCL QLED C755,Television,69999,"Affordable QLED TV with Dolby Vision and Google TV support.",tcl_qled_c755.jpg
+MQ5P,Mi QLED TV 5 Pro,Television,49999,"Smart QLED TV with vivid color and Android 13.",mi_qled_tv_5_pro.jpg
+OQ2P,OnePlus Q2 Pro,Television,89999,"Premium QLED TV with Dynaudio sound tuning and sleek design.",oneplus_q2_pro.jpg
+HSU8K,Hisense U8K,Television,99999,"Mini-LED TV with great HDR performance and Dolby Atmos audio.",hisense_u8k.jpg
+VUML,VU Masterpiece Glo,Television,64999,"4K QLED TV with 800 nits brightness and premium metal design.",vu_masterpiece_glo.jpg
+ACOL,Acer H Series OLED,Television,79999,"Affordable OLED TV with deep blacks and great contrast.",acer_h_series_oled.jpg
 
-Dyson V12 Detect Slim,Home Appliance,49999,Smart cordless vacuum cleaner with laser dust detection.
-Philips Air Purifier 3000i,Home Appliance,23999,Smart air purifier with HEPA filter and real-time air quality tracking.
-Mi Smart Standing Fan 2,Home Appliance,6999,WiFi-enabled silent smart fan with adjustable height.
-Samsung Convertible Refrigerator,Home Appliance,48999,Energy-efficient refrigerator with 5-in-1 convertible modes.
-LG Washing Machine 7kg,Home Appliance,35999,Fully automatic front-load washing machine with AI Wash.
-Whirlpool Magicook 30L,Home Appliance,10499,Convection microwave oven with pre-programmed recipes.
-Havells Water Purifier,Home Appliance,15999,RO+UV water purifier with smart display.
-IFB Dishwasher Neptune VX,Home Appliance,49999,12-place dishwasher with steam drying.
-Morphy Richards Oven Toaster,Home Appliance,7999,Compact toaster oven with 2000W power.
+AECD5,Amazon Echo Dot 5,Smart Speaker,5499,"Smart speaker with Alexa voice control and rich sound.",amazon_echo_dot_5.jpg
+GNAU,Google Nest Audio,Smart Speaker,7999,"Smart home speaker with Google Assistant and improved bass.",google_nest_audio.jpg
+AHPM,Apple HomePod Mini,Smart Speaker,9900,"Compact smart speaker with Siri and 360° sound.",apple_homepod_mini.jpg
+SONE,Sonos One,Smart Speaker,19999,"Premium speaker with Wi-Fi streaming and Alexa integration.",sonos_one.jpg
+BS1450,Boat Stone 1450,Speaker,3999,"Portable Bluetooth speaker with deep bass and water resistance.",boat_stone_1450.jpg
+JBLF6,JBL Flip 6,Speaker,8999,"Compact speaker with JBL Pro Sound and IP67 waterproofing.",jbl_flip_6.jpg
+SSXE300,Sony SRS-XE300,Speaker,14999,"Portable speaker with powerful stereo output and long battery life.",sony_srs_xe300.jpg
+MEMB2,Marshall Emberton II,Speaker,17999,"Classic retro design speaker with 30-hour battery life.",marshall_emberton_2.jpg
+ZBSB,Zebronics Sound Bomb,Speaker,2499,"Budget Bluetooth speaker with RGB lights and loud output.",zebronics_sound_bomb.jpg
 
-Apple iPad Air M2,Tablet,58999,Tablet with M2 chip, great for productivity and creative tasks.
-Samsung Galaxy Tab S9,Tablet,85999,Premium Android tablet with AMOLED display and S Pen support.
-Lenovo Tab P12 Pro,Tablet,49999,High-performance tablet with OLED display and Snapdragon 870.
-Xiaomi Pad 6,Tablet,26999,Affordable Android tablet for multimedia and gaming.
-OnePlus Pad,Tablet,35999,Stylish Android tablet with 144Hz LCD display and fast charging.
-Realme Pad X,Tablet,22999,Sleek tablet for media consumption and online classes.
-Amazon Fire HD 10,Tablet,14999,Entertainment-focused tablet with Alexa integration.
-Apple iPad Pro M4,Tablet,129999,Flagship tablet with M4 chip and ProMotion display.
-Honor Pad 9,Tablet,25999,Lightweight tablet with 2K display and Snapdragon 6 Gen 1 chip.
+DYV12,Dyson V12 Detect Slim,Home Appliance,49999,"Smart cordless vacuum cleaner with laser dust detection.",dyson_v12_detect_slim.jpg
+PAP3000,Philips Air Purifier 3000i,Home Appliance,23999,"Smart air purifier with HEPA filter and real-time air quality tracking.",philips_air_purifier_3000i.jpg
+MISF2,Mi Smart Standing Fan 2,Home Appliance,6999,"WiFi-enabled silent smart fan with adjustable height.",mi_smart_standing_fan_2.jpg
+SCRF,Samsung Convertible Refrigerator,Home Appliance,48999,"Energy-efficient refrigerator with 5-in-1 convertible modes.",samsung_convertible_refrigerator.jpg
+LGWM7,LG Washing Machine 7kg,Home Appliance,35999,"Fully automatic front-load washing machine with AI Wash.",lg_washing_machine_7kg.jpg
+WM30L,Whirlpool Magicook 30L,Home Appliance,10499,"Convection microwave oven with pre-programmed recipes.",whirlpool_magicook_30l.jpg
+HWP,Havells Water Purifier,Home Appliance,15999,"RO+UV water purifier with smart display.",havells_water_purifier.jpg
+IFBDW,IFB Dishwasher Neptune VX,Home Appliance,49999,"12-place dishwasher with steam drying.",ifb_dishwasher_neptune_vx.jpg
+MRTO,Morphy Richards Oven Toaster,Home Appliance,7999,"Compact toaster oven with 2000W power.",morphy_richards_oven_toaster.jpg
 
-Anker PowerCore 20000,Accessory,3999,High-capacity power bank for fast charging.
-Sandisk Extreme 1TB SSD,Accessory,10999,Portable solid-state drive with 1050MB/s transfer speed.
-Logitech MX Master 3S,Accessory,9999,Ergonomic wireless mouse with fast scrolling and silent clicks.
-Keychron K6 Keyboard,Accessory,7999,Compact mechanical keyboard with RGB lighting.
-Samsung T7 2TB SSD,Accessory,14999,Portable SSD with high-speed USB 3.2 Gen 2 interface.
-Apple Magic Keyboard,Accessory,19999,Wireless keyboard designed for Apple devices.
-Sony 128GB SD Card,Accessory,1999,High-speed SD card ideal for 4K video recording.
-Belkin 3-in-1 Charger,Accessory,6999,Wireless charging station for iPhone, Apple Watch, and AirPods.
-Ugreen USB-C Hub 9-in-1,Accessory,4999,Multiport USB hub with HDMI, Ethernet, and SD slots.
-TP-Link Wi-Fi 6 Router,Accessory,6999,High-speed router for stable and fast wireless connection.
+IPADM2,Apple iPad Air M2,Tablet,58999,"Tablet with M2 chip, great for productivity and creative tasks.",apple_ipad_air_m2.jpg
+SGTS9,Samsung Galaxy Tab S9,Tablet,85999,"Premium Android tablet with AMOLED display and S Pen support.",samsung_galaxy_tab_s9.jpg
+LTP12,Lenovo Tab P12 Pro,Tablet,49999,"High-performance tablet with OLED display and Snapdragon 870.",lenovo_tab_p12_pro.jpg
+XMP6,Xiaomi Pad 6,Tablet,26999,"Affordable Android tablet for multimedia and gaming.",xiaomi_pad_6.jpg
+OPPAD,OnePlus Pad,Tablet,35999,"Stylish Android tablet with 144Hz LCD display and fast charging.",oneplus_pad.jpg
+RMPADX,Realme Pad X,Tablet,22999,"Sleek tablet for media consumption and online classes.",realme_pad_x.jpg
+AFHD10,Amazon Fire HD 10,Tablet,14999,"Entertainment-focused tablet with Alexa integration.",amazon_fire_hd_10.jpg
+IPADM4,Apple iPad Pro M4,Tablet,129999,"Flagship tablet with M4 chip and ProMotion display.",apple_ipad_pro_m4.jpg
+HONPAD9,Honor Pad 9,Tablet,25999,"Lightweight tablet with 2K display and Snapdragon 6 Gen 1 chip.",honor_pad_9.jpg
+
+AK20000,Anker PowerCore 20000,Accessory,3999,"High-capacity power bank for fast charging.",anker_powercore_20000.jpg
+SD1TB,Sandisk Extreme 1TB SSD,Accessory,10999,"Portable solid-state drive with 1050MB/s transfer speed.",sandisk_extreme_1tb_ssd.jpg
+LGMX3S,Logitech MX Master 3S,Accessory,9999,"Ergonomic wireless mouse with fast scrolling and silent clicks.",logitech_mx_master_3s.jpg
+KC6,Keychron K6 Keyboard,Accessory,7999,"Compact mechanical keyboard with RGB lighting.",keychron_k6_keyboard.jpg
+ST72TB,Samsung T7 2TB SSD,Accessory,14999,"Portable SSD with high-speed USB 3.2 Gen 2 interface.",samsung_t7_2tb_ssd.jpg
+AMKBD,Apple Magic Keyboard,Accessory,19999,"Wireless keyboard designed for Apple devices.",apple_magic_keyboard.jpg
+SD128,Sony 128GB SD Card,Accessory,1999,"High-speed SD card ideal for 4K video recording.",sony_128gb_sd_card.jpg
+B3IN1,Belkin 3-in-1 Charger,Accessory,6999,"Wireless charging station for iPhone, Apple Watch, and AirPods.",belkin_3_in_1_charger.jpg
+UG9IN1,Ugreen USB-C Hub 9-in-1,Accessory,4999,"Multiport USB hub with HDMI, Ethernet, and SD slots.",ugreen_usb_c_hub_9_in_1.jpg
+TPLW6R,TP-Link Wi-Fi 6 Router,Accessory,6999,"High-speed router for stable and fast wireless connection.",tp_link_wifi_6_router.jpg
